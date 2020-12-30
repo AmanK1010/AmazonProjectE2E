@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="41488" started-at="2020-12-29T14:43:53Z" finished-at="2020-12-29T14:44:34Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="41488" started-at="2020-12-29T14:43:53Z" finished-at="2020-12-29T14:44:34Z">
+      <class name="com.test.MobilePageTest">
+        <test-method status="PASS" signature="launchMobilePageOfAmazon()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="launchMobilePageOfAmazon" is-config="true" duration-ms="11987" started-at="2020-12-29T14:43:53Z" finished-at="2020-12-29T14:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMobilePageOfAmazon -->
+        <test-method status="PASS" signature="checkAllNavBarLinks()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="checkAllNavBarLinks" duration-ms="510" started-at="2020-12-29T14:44:05Z" finished-at="2020-12-29T14:44:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkAllNavBarLinks -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="801" started-at="2020-12-29T14:44:05Z" finished-at="2020-12-29T14:44:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchMobilePageOfAmazon()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="launchMobilePageOfAmazon" is-config="true" duration-ms="12983" started-at="2020-12-29T14:44:06Z" finished-at="2020-12-29T14:44:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMobilePageOfAmazon -->
+        <test-method status="PASS" signature="verifyAllSideBarRadioBtns()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="verifyAllSideBarRadioBtns" duration-ms="987" started-at="2020-12-29T14:44:19Z" finished-at="2020-12-29T14:44:20Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllSideBarRadioBtns -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="779" started-at="2020-12-29T14:44:20Z" finished-at="2020-12-29T14:44:21Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+        <test-method status="PASS" signature="launchMobilePageOfAmazon()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="launchMobilePageOfAmazon" is-config="true" duration-ms="11849" started-at="2020-12-29T14:44:21Z" finished-at="2020-12-29T14:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchMobilePageOfAmazon -->
+        <test-method status="PASS" signature="verifyAllSideNavBarLinks()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="verifyAllSideNavBarLinks" duration-ms="717" started-at="2020-12-29T14:44:33Z" finished-at="2020-12-29T14:44:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAllSideNavBarLinks -->
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="831" started-at="2020-12-29T14:44:33Z" finished-at="2020-12-29T14:44:34Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeBrowser -->
+      </class> <!-- com.test.MobilePageTest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
