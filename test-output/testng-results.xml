@@ -1,49 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="3" passed="3">
+<testng-results skipped="0" failed="0" ignored="0" total="14" passed="14">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="41488" started-at="2020-12-29T14:43:53Z" finished-at="2020-12-29T14:44:34Z">
+  <suite name="Default suite" duration-ms="177382" started-at="2021-01-02T08:07:03Z" finished-at="2021-01-02T08:10:01Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="41488" started-at="2020-12-29T14:43:53Z" finished-at="2020-12-29T14:44:34Z">
-      <class name="com.test.MobilePageTest">
-        <test-method status="PASS" signature="launchMobilePageOfAmazon()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="launchMobilePageOfAmazon" is-config="true" duration-ms="11987" started-at="2020-12-29T14:43:53Z" finished-at="2020-12-29T14:44:05Z">
+    <test name="Default test" duration-ms="177382" started-at="2021-01-02T08:07:03Z" finished-at="2021-01-02T08:10:01Z">
+      <class name="com.test.CustomerServicePageTest">
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="11795" started-at="2021-01-02T08:07:03Z" finished-at="2021-01-02T08:07:15Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchMobilePageOfAmazon -->
-        <test-method status="PASS" signature="checkAllNavBarLinks()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="checkAllNavBarLinks" duration-ms="510" started-at="2020-12-29T14:44:05Z" finished-at="2020-12-29T14:44:05Z">
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyAllTabLinks()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyAllTabLinks" duration-ms="472" started-at="2021-01-02T08:07:15Z" finished-at="2021-01-02T08:07:16Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- checkAllNavBarLinks -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="801" started-at="2020-12-29T14:44:05Z" finished-at="2020-12-29T14:44:06Z">
+        </test-method> <!-- verifyAllTabLinks -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="1378" started-at="2021-01-02T08:07:16Z" finished-at="2021-01-02T08:07:17Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchMobilePageOfAmazon()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="launchMobilePageOfAmazon" is-config="true" duration-ms="12983" started-at="2020-12-29T14:44:06Z" finished-at="2020-12-29T14:44:19Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="12356" started-at="2021-01-02T08:07:17Z" finished-at="2021-01-02T08:07:29Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchMobilePageOfAmazon -->
-        <test-method status="PASS" signature="verifyAllSideBarRadioBtns()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="verifyAllSideBarRadioBtns" duration-ms="987" started-at="2020-12-29T14:44:19Z" finished-at="2020-12-29T14:44:20Z">
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyAmazonBusinessAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyAmazonBusinessAllOptions" duration-ms="609" started-at="2021-01-02T08:07:29Z" finished-at="2021-01-02T08:07:30Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllSideBarRadioBtns -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="779" started-at="2020-12-29T14:44:20Z" finished-at="2020-12-29T14:44:21Z">
+        </test-method> <!-- verifyAmazonBusinessAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="851" started-at="2021-01-02T08:07:30Z" finished-at="2021-01-02T08:07:31Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="launchMobilePageOfAmazon()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="launchMobilePageOfAmazon" is-config="true" duration-ms="11849" started-at="2020-12-29T14:44:21Z" finished-at="2020-12-29T14:44:33Z">
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="10433" started-at="2021-01-02T08:07:31Z" finished-at="2021-01-02T08:07:41Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- launchMobilePageOfAmazon -->
-        <test-method status="PASS" signature="verifyAllSideNavBarLinks()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="verifyAllSideNavBarLinks" duration-ms="717" started-at="2020-12-29T14:44:33Z" finished-at="2020-12-29T14:44:33Z">
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyAmazonPayAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyAmazonPayAllOptions" duration-ms="397" started-at="2021-01-02T08:07:41Z" finished-at="2021-01-02T08:07:42Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- verifyAllSideNavBarLinks -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.test.MobilePageTest@66a3ffec]" name="closeBrowser" is-config="true" duration-ms="831" started-at="2020-12-29T14:44:33Z" finished-at="2020-12-29T14:44:34Z">
+        </test-method> <!-- verifyAmazonPayAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="831" started-at="2021-01-02T08:07:42Z" finished-at="2021-01-02T08:07:43Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- com.test.MobilePageTest -->
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="10740" started-at="2021-01-02T08:07:43Z" finished-at="2021-01-02T08:07:53Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyAmazonPrimeAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyAmazonPrimeAllOptions" duration-ms="421" started-at="2021-01-02T08:07:53Z" finished-at="2021-01-02T08:07:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyAmazonPrimeAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="963" started-at="2021-01-02T08:07:54Z" finished-at="2021-01-02T08:07:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="10429" started-at="2021-01-02T08:07:55Z" finished-at="2021-01-02T08:08:05Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyCustomerServiceAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyCustomerServiceAllOptions" duration-ms="439" started-at="2021-01-02T08:08:05Z" finished-at="2021-01-02T08:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCustomerServiceAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="808" started-at="2021-01-02T08:08:06Z" finished-at="2021-01-02T08:08:06Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="11351" started-at="2021-01-02T08:08:06Z" finished-at="2021-01-02T08:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyDevicesAndDigitalServicesAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyDevicesAndDigitalServicesAllOptions" duration-ms="576" started-at="2021-01-02T08:08:18Z" finished-at="2021-01-02T08:08:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDevicesAndDigitalServicesAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="1134" started-at="2021-01-02T08:08:18Z" finished-at="2021-01-02T08:08:19Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="11377" started-at="2021-01-02T08:08:19Z" finished-at="2021-01-02T08:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyManagingYourAccountAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyManagingYourAccountAllOptions" duration-ms="433" started-at="2021-01-02T08:08:31Z" finished-at="2021-01-02T08:08:31Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyManagingYourAccountAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="824" started-at="2021-01-02T08:08:31Z" finished-at="2021-01-02T08:08:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="11742" started-at="2021-01-02T08:08:32Z" finished-at="2021-01-02T08:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyMoreSolutions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyMoreSolutions" duration-ms="85" started-at="2021-01-02T08:08:44Z" finished-at="2021-01-02T08:08:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyMoreSolutions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="778" started-at="2021-01-02T08:08:44Z" finished-at="2021-01-02T08:08:45Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="10445" started-at="2021-01-02T08:08:45Z" finished-at="2021-01-02T08:08:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyOrderingAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyOrderingAllOptions" duration-ms="432" started-at="2021-01-02T08:08:55Z" finished-at="2021-01-02T08:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOrderingAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="823" started-at="2021-01-02T08:08:56Z" finished-at="2021-01-02T08:08:56Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="11555" started-at="2021-01-02T08:08:56Z" finished-at="2021-01-02T08:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyOtherTopicsAndHelpSitesAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyOtherTopicsAndHelpSitesAllOptions" duration-ms="495" started-at="2021-01-02T08:09:08Z" finished-at="2021-01-02T08:09:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyOtherTopicsAndHelpSitesAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="1193" started-at="2021-01-02T08:09:08Z" finished-at="2021-01-02T08:09:10Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="12486" started-at="2021-01-02T08:09:10Z" finished-at="2021-01-02T08:09:22Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyPaymentsAndPricingAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyPaymentsAndPricingAllOptions" duration-ms="552" started-at="2021-01-02T08:09:22Z" finished-at="2021-01-02T08:09:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyPaymentsAndPricingAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="1231" started-at="2021-01-02T08:09:23Z" finished-at="2021-01-02T08:09:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="11517" started-at="2021-01-02T08:09:24Z" finished-at="2021-01-02T08:09:35Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyRecommendedOptionsAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyRecommendedOptionsAllOptions" duration-ms="444" started-at="2021-01-02T08:09:35Z" finished-at="2021-01-02T08:09:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyRecommendedOptionsAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="1042" started-at="2021-01-02T08:09:36Z" finished-at="2021-01-02T08:09:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="10273" started-at="2021-01-02T08:09:37Z" finished-at="2021-01-02T08:09:47Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyReturnsRefundsAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyReturnsRefundsAllOptions" duration-ms="489" started-at="2021-01-02T08:09:47Z" finished-at="2021-01-02T08:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyReturnsRefundsAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="816" started-at="2021-01-02T08:09:48Z" finished-at="2021-01-02T08:09:48Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method status="PASS" signature="launchCustomerServicePageInAmazon()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="launchCustomerServicePageInAmazon" is-config="true" duration-ms="10538" started-at="2021-01-02T08:09:48Z" finished-at="2021-01-02T08:09:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchCustomerServicePageInAmazon -->
+        <test-method status="PASS" signature="verifyShippingAndDeliveryAllOptions()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="verifyShippingAndDeliveryAllOptions" duration-ms="515" started-at="2021-01-02T08:09:59Z" finished-at="2021-01-02T08:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShippingAndDeliveryAllOptions -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.test.CustomerServicePageTest@77caeb3e]" name="tearDown" is-config="true" duration-ms="1268" started-at="2021-01-02T08:10:00Z" finished-at="2021-01-02T08:10:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.test.CustomerServicePageTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

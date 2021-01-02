@@ -24,7 +24,7 @@ public class TodaysdealPage extends LibGlobal {
 	private WebElement watchedDealsTab;
 	
 	@FindBy(xpath="(//span[@class='nav-a-content'])[4]")
-	private WebElement subscribeAndSubscribeTab;
+	private WebElement subscribeAndSaveTab;
 	
 	@FindBy(xpath="(//span[@class='nav-a-content'])[5]")
 	private WebElement couponsTab;
@@ -357,450 +357,450 @@ public class TodaysdealPage extends LibGlobal {
 	
 	  
 		
-	public void checkTodaysDealsTab() {
-		isEnabled(todaysDealsTab);
+	public boolean checkTodaysDealsTab() {
+		return isEnabled(todaysDealsTab);
 	}
 	
-	public void checkAllDealsTab() {
-		isEnabled(allDealsTab);
+	public boolean checkAllDealsTab() {
+		return isEnabled(allDealsTab);
 	}
 	
-	public void checkWatchedDealsTab() {
-		isEnabled(watchedDealsTab);
+	public boolean checkWatchedDealsTab() {
+		return isEnabled(watchedDealsTab);
 	}
 	
-	public void checkSubscribeAndSubscribeTab() {
-		isEnabled(subscribeAndSubscribeTab);
+	public boolean checkSubscribeAndSaveTab() {
+		return isEnabled(subscribeAndSaveTab);
 	}
 	
-	public void checkCouponsTab() {
-		isEnabled(couponsTab);
+	public boolean checkCouponsTab() {
+		return isEnabled(couponsTab);
 	}
 	
-	public void checkAmazonAssistantTab() {
-		isEnabled(amazonAssistantTab);
+	public boolean checkAmazonAssistantTab() {
+		return isEnabled(amazonAssistantTab);
 	}
 	
-	public void checkClearanceTab() {
-		isEnabled(clearanceTab);
+	public boolean checkClearanceTab() {
+		return isEnabled(clearanceTab);
 	}
 	
 	     
-	public void checkRefurbishedAndOpenBoxTab() {
-		isEnabled(refurbishedAndOpenBoxTab);
+	public boolean checkRefurbishedAndOpenBoxTab() {
+		return isEnabled(refurbishedAndOpenBoxTab);
 	}
 	
-	public void checkAppliancesRadioBtn() {
-		isEnabled(appliancesRadioBtn);
+	public boolean checkAppliancesRadioBtn() {
+		return isEnabled(appliancesRadioBtn);
 	}
 	
-	public void checkArtworkRadioBtn() {
-		isEnabled(artworkRadioBtn);
+	public boolean checkArtworkRadioBtn() {
+		return isEnabled(artworkRadioBtn);
 	}
 	
-	public void checkBabyProductsRadioBtn() {
-		isEnabled(babyProductsRadioBtn);
+	public boolean checkBabyProductsRadioBtn() {
+		return isEnabled(babyProductsRadioBtn);
 	}
 	
 	   
-	public void checkBeautyRadioBtn() {
-		isEnabled(beautyRadioBtn);
+	public boolean checkBeautyRadioBtn() {
+		return isEnabled(beautyRadioBtn);
 	}
 	
-	public void checkBooksRadioBtn() {
-		isEnabled(booksRadioBtn);
+	public boolean checkBooksRadioBtn() {
+		return isEnabled(booksRadioBtn);
 	}
 	
-	public void checkBusinessIndustrialAndScientificSuppliesRadioBtn() {
-		isEnabled(businessIndustrialAndScientificSuppliesRadioBtn);
+	public boolean checkBusinessIndustrialAndScientificSuppliesRadioBtn() {
+		return isEnabled(businessIndustrialAndScientificSuppliesRadioBtn);
 	}
 	
-	public void checkCameraAccessoriesRadioBtn() {
-		isEnabled(cameraAccessoriesRadioBtn);
+	public boolean checkCameraAccessoriesRadioBtn() {
+		return isEnabled(cameraAccessoriesRadioBtn);
 	}
 	
-	public void checkCamerasAndPhotographyRadioBtn() {
-		isEnabled(camerasAndPhotographyRadioBtn);
+	public boolean checkCamerasAndPhotographyRadioBtn() {
+		return isEnabled(camerasAndPhotographyRadioBtn);
 	}
 	
-	public void checkCarAndMotorbikeAccessoriesRadioBtn() {
-		isEnabled(carAndMotorbikeAccessoriesRadioBtn);
+	public boolean checkCarAndMotorbikeAccessoriesRadioBtn() {
+		return isEnabled(carAndMotorbikeAccessoriesRadioBtn);
 	}
 	
 	     
-	public void checkChimneysKitchenRadioBtn() {
-		isEnabled(chimneysKitchenRadioBtn);
+	public boolean checkChimneysKitchenRadioBtn() {
+		return isEnabled(chimneysKitchenRadioBtn);
 	}
 	
 	
-	public void checkClothingBabyRadioBtn() {
-		isEnabled(clothingBabyRadioBtn);
+	public boolean checkClothingBabyRadioBtn() {
+		return isEnabled(clothingBabyRadioBtn);
 	}
 	
-	public void checkClothingBoysRadioBtn() {
-		isEnabled(clothingBoysRadioBtn);
+	public boolean checkClothingBoysRadioBtn() {
+		return isEnabled(clothingBoysRadioBtn);
 	}
 	
-	public void checkSeeMoreDeptLink() {
-		isEnabled(seeMoreDeptLink);
-	}
-	
-	
-	public void checkClothingGirlsRadioBtn() {
-		isEnabled(clothingGirlsRadioBtn);
+	public boolean checkSeeMoreDeptLink() {
+		return isEnabled(seeMoreDeptLink);
 	}
 	
 	
-	public void checkClothingMensRadioBtn() {
-		isEnabled(clothingMensRadioBtn);
-	}
-	 //   
-	public void checkClothingWomensRadioBtn() {
-		isEnabled(clothingWomensRadioBtn);
+	public boolean checkClothingGirlsRadioBtn() {
+		return isEnabled(clothingGirlsRadioBtn);
 	}
 	
-	public void checkClothingAndAccessoriesRadioBtn() {
-		isEnabled(clothingAndAccessoriesRadioBtn);
+	
+	public boolean checkClothingMensRadioBtn() {
+		return isEnabled(clothingMensRadioBtn);
+	}
+	 
+	public boolean checkClothingWomensRadioBtn() {
+		return isEnabled(clothingWomensRadioBtn);
 	}
 	
-	public void checkComputerComponentsRadioBtn() {
-		isEnabled(computerComponentsRadioBtn);
+	public boolean checkClothingAndAccessoriesRadioBtn() {
+		return isEnabled(clothingAndAccessoriesRadioBtn);
 	}
 	
-	public void checkComputersAndAccessoriesRadioBtn() {
-		isEnabled(computersAndAccessoriesRadioBtn);
+	public boolean checkComputerComponentsRadioBtn() {
+		return isEnabled(computerComponentsRadioBtn);
 	}
 	
-	public void checkDataStorageAndExternalDevicesRadioBtn() {
-		isEnabled(dataStorageAndExternalDevicesRadioBtn);
+	public boolean checkComputersAndAccessoriesRadioBtn() {
+		return isEnabled(computersAndAccessoriesRadioBtn);
+	}
+	
+	public boolean checkDataStorageAndExternalDevicesRadioBtn() {
+		return isEnabled(dataStorageAndExternalDevicesRadioBtn);
 	}
 	
 	      
 	
-	public void checkDesktopsRadioBtn() {
-		isEnabled(desktopsRadioBtn);
+	public boolean checkDesktopsRadioBtn() {
+		return isEnabled(desktopsRadioBtn);
 	}
 	
-	public void checkElectronicsRadioBtn() {
-		isEnabled(electronicsRadioBtn);
+	public boolean checkElectronicsRadioBtn() {
+		return isEnabled(electronicsRadioBtn);
 	}
 	
-	public void checkElectonicsAccessoriesRadioBtn() {
-		isEnabled(electonicsAccessoriesRadioBtn);
+	public boolean checkElectonicsAccessoriesRadioBtn() {
+		return isEnabled(electonicsAccessoriesRadioBtn);
 	}
 	
-	public void checkFurnitureRadioBtn() {
-		isEnabled(furnitureRadioBtn);
+	public boolean checkFurnitureRadioBtn() {
+		return isEnabled(furnitureRadioBtn);
 	}
 	
-	public void checkGardenAndOutdoorsRadioBtn() {
-		isEnabled(gardenAndOutdoorsRadioBtn);
+	public boolean checkGardenAndOutdoorsRadioBtn() {
+		return isEnabled(gardenAndOutdoorsRadioBtn);
 	}
 	
 	          
-	public void checkGiftsCardsRadioBtn() {
-		isEnabled(giftsCardsRadioBtn);
+	public boolean checkGiftsCardsRadioBtn() {
+		return isEnabled(giftsCardsRadioBtn);
 	}
 	
-	public void checkGroceryRadioBtn() {
-		isEnabled(groceryRadioBtn);
+	public boolean checkGroceryRadioBtn() {
+		return isEnabled(groceryRadioBtn);
 	}
 	
-	public void checkHandbagsRadioBtn() {
-		isEnabled(handbagsRadioBtn);
+	public boolean checkHandbagsRadioBtn() {
+		return isEnabled(handbagsRadioBtn);
 	}
 	
-	public void checkHeadphonesRadioBtn() {
-		isEnabled(headphonesRadioBtn);
+	public boolean checkHeadphonesRadioBtn() {
+		return isEnabled(headphonesRadioBtn);
 	}
 	
-	public void checkHealthAndPersonalCareRadioBtn() {
-		isEnabled(healthAndPersonalCareRadioBtn);
+	public boolean checkHealthAndPersonalCareRadioBtn() {
+		return isEnabled(healthAndPersonalCareRadioBtn);
 	}
 	
-	public void checkHomeAndDecorRadioBtn() {
-		isEnabled(homeAndDecorRadioBtn);
+	public boolean checkHomeAndDecorRadioBtn() {
+		return isEnabled(homeAndDecorRadioBtn);
 	}
 	
-	public void checkHomeAndKitchenRadioBtn() {
-		isEnabled(homeAndKitchenRadioBtn);
+	public boolean checkHomeAndKitchenRadioBtn() {
+		return isEnabled(homeAndKitchenRadioBtn);
 	}
 	
-	public void checkHomeAudioAndAccessoriesRadioBtn() {
-		isEnabled(homeAudioAndAccessoriesRadioBtn);
+	public boolean checkHomeAudioAndAccessoriesRadioBtn() {
+		return isEnabled(homeAudioAndAccessoriesRadioBtn);
 	}
 	
-	public void checkHomeEntertainmentSystemsRadioBtn() {
-		isEnabled(homeEntertainmentSystemsRadioBtn);
+	public boolean checkHomeEntertainmentSystemsRadioBtn() {
+		return isEnabled(homeEntertainmentSystemsRadioBtn);
 	}
 	
-	public void checkHomeFurnishingRadioBtn() {
-		isEnabled(homeFurnishingRadioBtn);
+	public boolean checkHomeFurnishingRadioBtn() {
+		return isEnabled(homeFurnishingRadioBtn);
 	}
 	
-	public void checkHomeImproventRadioBtn() {
-		isEnabled(homeImproventRadioBtn);
+	public boolean checkHomeImproventRadioBtn() {
+		return isEnabled(homeImproventRadioBtn);
 	}
 	
 	    
-	public void checkHomestorageAndOrganisationRadioBtn() {
-		isEnabled(homestorageAndOrganisationRadioBtn);
+	public boolean checkHomestorageAndOrganisationRadioBtn() {
+		return isEnabled(homestorageAndOrganisationRadioBtn);
 	}
 	
-	public void checkHouseholdSuppliesRadioBtn() {
-		isEnabled(householdSuppliesRadioBtn);
+	public boolean checkHouseholdSuppliesRadioBtn() {
+		return isEnabled(householdSuppliesRadioBtn);
 	}
 	
-	public void checkIndoorLightingRadioBtn() {
-		isEnabled(indoorLightingRadioBtn);
+	public boolean checkIndoorLightingRadioBtn() {
+		return isEnabled(indoorLightingRadioBtn);
 	}
 	
-	public void checkJewelleryRadioBtn() {
-		isEnabled(jewelleryRadioBtn);
+	public boolean checkJewelleryRadioBtn() {
+		return isEnabled(jewelleryRadioBtn);
 	}
 	
-	public void checkKeyboardsMouseAndInputRadioBtn() {
-		isEnabled(keyboardsMouseAndInputRadioBtn);
+	public boolean checkKeyboardsMouseAndInputRadioBtn() {
+		return isEnabled(keyboardsMouseAndInputRadioBtn);
 	}
 	
 	     
 	
-	public void checkKindleEbooksRadioBtn() {
-		isEnabled(kindleEbooksRadioBtn);
+	public boolean checkKindleEbooksRadioBtn() {
+		return isEnabled(kindleEbooksRadioBtn);
 	}
 	
-	public void checkKitchenAndDiningRadioBtn() {
-		isEnabled(kitchenAndDiningRadioBtn);
+	public boolean checkKitchenAndDiningRadioBtn() {
+		return isEnabled(kitchenAndDiningRadioBtn);
 	}
 	
-	public void checkLaptopsRadioBtn() {
-		isEnabled(laptopsRadioBtn);
+	public boolean checkLaptopsRadioBtn() {
+		return isEnabled(laptopsRadioBtn);
 	}
 	
-	public void checkLargeAppliancesRadioBtn() {
-		isEnabled(largeAppliancesRadioBtn);
+	public boolean checkLargeAppliancesRadioBtn() {
+		return isEnabled(largeAppliancesRadioBtn);
 	}
 	
 	      
-	public void checkLuggageAndBagsRadioBtn() {
-		isEnabled(luggageAndBagsRadioBtn);
+	public boolean checkLuggageAndBagsRadioBtn() {
+		return isEnabled(luggageAndBagsRadioBtn);
 	}
 	
-	public void checkMobileAccessoriesRadioBtn() {
-		isEnabled(mobileAccessoriesRadioBtn);
+	public boolean checkMobileAccessoriesRadioBtn() {
+		return isEnabled(mobileAccessoriesRadioBtn);
 	}
-	public void checkMobilesRadioBtn() {
-		isEnabled(mobilesRadioBtn);
+	public boolean checkMobilesRadioBtn() {
+		return isEnabled(mobilesRadioBtn);
 	}
-	public void checkMoviesAndTvShowsRadioBtn() {
-		isEnabled(moviesAndTvShowsRadioBtn);
-	}
-	
-	public void checkMp3PlayersAndAccessoriesRadioBtn() {
-		isEnabled(mp3PlayersAndAccessoriesRadioBtn);
+	public boolean checkMoviesAndTvShowsRadioBtn() {
+		return isEnabled(moviesAndTvShowsRadioBtn);
 	}
 	
-	public void checkMusicRadioBtn() {
-		isEnabled(musicRadioBtn);
+	public boolean checkMp3PlayersAndAccessoriesRadioBtn() {
+		return isEnabled(mp3PlayersAndAccessoriesRadioBtn);
 	}
 	
-	public void checkMusicalInstrumentsRadioBtn() {
-		isEnabled(musicalInstrumentsRadioBtn);
+	public boolean checkMusicRadioBtn() {
+		return isEnabled(musicRadioBtn);
 	}
 	
-	public void checkNetworkingDevicesRadioBtn() {
-		isEnabled(networkingDevicesRadioBtn);
+	public boolean checkMusicalInstrumentsRadioBtn() {
+		return isEnabled(musicalInstrumentsRadioBtn);
+	}
+	
+	public boolean checkNetworkingDevicesRadioBtn() {
+		return isEnabled(networkingDevicesRadioBtn);
 	}
 	
 	    
-	public void checkOfficeAndSchoolSuppliesRadioBtn() {
-		isEnabled(officeAndSchoolSuppliesRadioBtn);
+	public boolean checkOfficeAndSchoolSuppliesRadioBtn() {
+		return isEnabled(officeAndSchoolSuppliesRadioBtn);
 	}
 	
-	public void checkPersonalCareRadioBtn() {
-		isEnabled(personalCareRadioBtn);
+	public boolean checkPersonalCareRadioBtn() {
+		return isEnabled(personalCareRadioBtn);
 	}
 	
-	public void checkPetSuppliesRadioBtn() {
-		isEnabled(petSuppliesRadioBtn);
+	public boolean checkPetSuppliesRadioBtn() {
+		return isEnabled(petSuppliesRadioBtn);
 	}
 	
 	
-	public void checkShoeCareAndAccessoriesRadioBtn() {
-		isEnabled(shoeCareAndAccessoriesRadioBtn);
+	public boolean checkShoeCareAndAccessoriesRadioBtn() {
+		return isEnabled(shoeCareAndAccessoriesRadioBtn);
 	}
 	
-	public void checkRefrigeratorsRadioBtn() {
-		isEnabled(refrigeratorsRadioBtn);
+	public boolean checkRefrigeratorsRadioBtn() {
+		return isEnabled(refrigeratorsRadioBtn);
 	}
 
 	       
-	public void checkShoesBoysRadioBtn() {
-		isEnabled(shoesBoysRadioBtn);
+	public boolean checkShoesBoysRadioBtn() {
+		return isEnabled(shoesBoysRadioBtn);
 	}
 	
-	public void checkShoesMensRadioBtn() {
-		isEnabled(shoesMensRadioBtn);
+	public boolean checkShoesMensRadioBtn() {
+		return isEnabled(shoesMensRadioBtn);
 	}
 	
-	public void checkShoesWomensRadioBtn() {
-		isEnabled(shoesWomensRadioBtn);
+	public boolean checkShoesWomensRadioBtn() {
+		return isEnabled(shoesWomensRadioBtn);
 	}
 	
-	public void checkShowersRadioBtn() {
-		isEnabled(showersRadioBtn);
+	public boolean checkShowersRadioBtn() {
+		return isEnabled(showersRadioBtn);
 	}
 	
-	public void checkSoftwareRadioBtn() {
-		isEnabled(softwareRadioBtn);
+	public boolean checkSoftwareRadioBtn() {
+		return isEnabled(softwareRadioBtn);
 	}
 	
-	public void checkSpeakersRadioBtn() {
-		isEnabled(speakersRadioBtn);
+	public boolean checkSpeakersRadioBtn() {
+		return isEnabled(speakersRadioBtn);
 	}
 	
-	public void checkSportingGoodsRadioBtn() {
-		isEnabled(sportingGoodsRadioBtn);
-	}
-	
-	      
-	
-	public void checkSunglassesGirlsRadioBtn() {
-		isEnabled(sunglassesGirlsRadioBtn);
-	}
-	
-	public void checkSunglassesMensRadioBtn() {
-		isEnabled(sunglassesMensRadioBtn);
-	}
-	
-	public void checkSunglassesWomensRadioBtn() {
-		isEnabled(sunglassesWomensRadioBtn);
-	}
-	
-	public void checkTabletsRadioBtn() {
-		isEnabled(tabletsRadioBtn);
-	}
-	
-	public void checkTelevisionsRadioBtn() {
-		isEnabled(televisionsRadioBtn);
+	public boolean checkSportingGoodsRadioBtn() {
+		return isEnabled(sportingGoodsRadioBtn);
 	}
 	
 	      
-	public void checkToysRadioBtn() {
-		isEnabled(toysRadioBtn);
+	
+	public boolean checkSunglassesGirlsRadioBtn() {
+		return isEnabled(sunglassesGirlsRadioBtn);
 	}
 	
-	public void checkVideoGamesRadioBtn() {
-		isEnabled(videoGamesRadioBtn);
+	public boolean checkSunglassesMensRadioBtn() {
+		return isEnabled(sunglassesMensRadioBtn);
 	}
 	
-	public void checkWatchesRadioBtn() {
-		isEnabled(watchesRadioBtn);
+	public boolean checkSunglassesWomensRadioBtn() {
+		return isEnabled(sunglassesWomensRadioBtn);
 	}
 	
-	public void checkWatchesKidsRadioBtn() {
-		isEnabled(watchesKidsRadioBtn);
+	public boolean checkTabletsRadioBtn() {
+		return isEnabled(tabletsRadioBtn);
 	}
 	
-	public void checkWatchesMensRadioBtn() {
-		isEnabled(watchesMensRadioBtn);
+	public boolean checkTelevisionsRadioBtn() {
+		return isEnabled(televisionsRadioBtn);
 	}
 	
-	public void checkWatchesWomensRadioBtn() {
-		isEnabled(watchesWomensRadioBtn);
+	      
+	public boolean checkToysRadioBtn() {
+		return isEnabled(toysRadioBtn);
 	}
 	
-	public void checkActiveRadioBtn() {
-		isEnabled(activeRadioBtn);
+	public boolean checkVideoGamesRadioBtn() {
+		return isEnabled(videoGamesRadioBtn);
 	}
 	
-	public void checkMissedRadioBtn() {
-		isEnabled(missedRadioBtn);
+	public boolean checkWatchesRadioBtn() {
+		return isEnabled(watchesRadioBtn);
+	}
+	
+	public boolean checkWatchesKidsRadioBtn() {
+		return isEnabled(watchesKidsRadioBtn);
+	}
+	
+	public boolean checkWatchesMensRadioBtn() {
+		return isEnabled(watchesMensRadioBtn);
+	}
+	
+	public boolean checkWatchesWomensRadioBtn() {
+		return isEnabled(watchesWomensRadioBtn);
+	}
+	
+	public boolean checkActiveRadioBtn() {
+		return isEnabled(activeRadioBtn);
+	}
+	
+	public boolean checkMissedRadioBtn() {
+		return isEnabled(missedRadioBtn);
 	}
 	     
 	
-	public void checkUpcomingRadioBtn() {
-		isEnabled(upcomingRadioBtn);
+	public boolean checkUpcomingRadioBtn() {
+		return isEnabled(upcomingRadioBtn);
 	}
 	
-	public void checkUnder500RadioBtn() {
-		isEnabled(under500RadioBtn);
+	public boolean checkUnder500RadioBtn() {
+		return isEnabled(under500RadioBtn);
 	}
 	
-	public void checkBetween500And1000RadioBtn() {
-		isEnabled(between500And1000RadioBtn);
+	public boolean checkBetween500And1000RadioBtn() {
+		return isEnabled(between500And1000RadioBtn);
 	}
 	
-	public void checkBetween1000And2000RadioBtn() {
-		isEnabled(between1000And2000RadioBtn);
+	public boolean checkBetween1000And2000RadioBtn() {
+		return isEnabled(between1000And2000RadioBtn);
 	}
 	
-	public void checkBetween2000And5000RadioBtn() {
-		isEnabled(between2000And5000RadioBtn);
+	public boolean checkBetween2000And5000RadioBtn() {
+		return isEnabled(between2000And5000RadioBtn);
 	}
 	
-	public void checkAbove5000RadioBtn() {
-		isEnabled(above5000RadioBtn);
+	public boolean checkAbove5000RadioBtn() {
+		return isEnabled(above5000RadioBtn);
 	}
 	      
-	public void checkClearLink() {
-		isEnabled(clearLink);
+	public boolean checkClearLink() {
+		return isEnabled(clearLink);
 	}
 	
-	public void checkDealOfDayLink() {
-		isEnabled(dealOfDayLink);
+	public boolean checkDealOfDayLink() {
+		return isEnabled(dealOfDayLink);
 	}
 	
-	public void checkCouponsLink() {
-		isEnabled(couponsLink);
+	public boolean checkCouponsLink() {
+		return isEnabled(couponsLink);
 	}
 	
-	public void checkPrimeEarlyAccessDealsLink() {
-		isEnabled(primeEarlyAccessDealsLink);
+	public boolean checkPrimeEarlyAccessDealsLink() {
+		return isEnabled(primeEarlyAccessDealsLink);
 	}
 	
-	public void checkAppOnlyAccessDealsLink() {
-		isEnabled(appOnlyAccessDealsLink);
+	public boolean checkAppOnlyAccessDealsLink() {
+		return isEnabled(appOnlyAccessDealsLink);
 	}
 	
-	public void checkAppEarlyAccessDealsLink() {
-		isEnabled(appEarlyAccessDealsLink);
+	public boolean checkAppEarlyAccessDealsLink() {
+		return isEnabled(appEarlyAccessDealsLink);
 	}
 	
-	public void checkDiscount10perAndAboveLink() {
-		isEnabled(discount10perAndAboveLink);
+	public boolean checkDiscount10perAndAboveLink() {
+		return isEnabled(discount10perAndAboveLink);
 	}
 	      
-	public void checkDiscount25perAndAboveLink() {
-		isEnabled(discount25perAndAboveLink);
+	public boolean checkDiscount25perAndAboveLink() {
+		return isEnabled(discount25perAndAboveLink);
 	}
 	
-	public void checkDiscount50perAndAboveLink() {
-		isEnabled(discount50perAndAboveLink);
+	public boolean checkDiscount50perAndAboveLink() {
+		return isEnabled(discount50perAndAboveLink);
 	}
 	
-	public void checkRating4AndAboveLink() {
-		isEnabled(rating4AndAboveLink);
+	public boolean checkRating4AndAboveLink() {
+		return isEnabled(rating4AndAboveLink);
 	}
 	
-	public void checkRating3AndAboveLink() {
-		isEnabled(rating3AndAboveLink);
+	public boolean checkRating3AndAboveLink() {
+		return isEnabled(rating3AndAboveLink);
 	}
 	
-	public void checkrating2AndAboveLink() {
-		isEnabled(rating2AndAboveLink);
+	public boolean checkrating2AndAboveLink() {
+		return isEnabled(rating2AndAboveLink);
 	}
 	
-	public void checkRating1AndAboveLink() {
-		isEnabled(rating1AndAboveLink);
+	public boolean checkRating1AndAboveLink() {
+		return isEnabled(rating1AndAboveLink);
 	}
 	  
-	public void checkLightingDealsLink() {
-		isEnabled(lightingDealsLink);
+	public boolean checkLightingDealsLink() {
+		return isEnabled(lightingDealsLink);
 	}
 	
-	public void checkSavingAndSalesLink() {
-		isEnabled(savingAndSalesLink);
+	public boolean checkSavingAndSalesLink() {
+		return isEnabled(savingAndSalesLink);
 	}
 	
 	

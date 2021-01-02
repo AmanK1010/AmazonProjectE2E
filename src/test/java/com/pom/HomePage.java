@@ -57,13 +57,13 @@ public class HomePage extends LibGlobal{
 	@FindBy(xpath="(//a[@class='nav-a  '])[3]")
 	private WebElement mobiles;
 	
-	@FindBy(xpath="(//a[@class='nav-a  '])[4]")
+	@FindBy(xpath="//a[text()=\"Today's Deals\"]")
 	private WebElement todaysDeal;
 	
-	@FindBy(xpath="(//a[@class='nav-a  '])[5]")
+	@FindBy(xpath="//a[text()='New Releases']")
 	private WebElement newReleases;
 	
-	@FindBy(xpath="(//a[@class='nav-a  '])[6]")
+	@FindBy(xpath="(//a[text()='Customer Service'])[1]")
 	private WebElement customerService;
 	
 	@FindBy(xpath="(//a[@class='nav-a  '])[7]")
@@ -623,6 +623,19 @@ public class HomePage extends LibGlobal{
 	public void getMobilesPage() {
 		click(mobiles);
 	}
+	
+	public void getTodaysDealsPage() {
+		click(todaysDeal);
+	}
+	
+	public void getNewReleasesPage() {
+		click(newReleases);
+	}
+	
+	public void getCustomerService() {
+		click(customerService);
+	}
+	
 	
 }
 
